@@ -8,6 +8,74 @@
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-    <img src="https://github.com/Pranav9931/ecellsrmist/raw/main/Images/Website%20Under%20Mentainance.png" alt="Under-Mentainance-Image">
+    <!-- Header Section Starts here -->
+    <header>
+        <!-- Header Container Starts here -->
+        <section class="header-container">
+            <!-- Navigation Panel Starts here -->
+            <div class="navigation-panel">
+                <div class="logo">
+                    <a href="../index.html"><img src="images/white ecell logo.png" alt="ecell-srmist-logo"></a>
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="../index.html" id="home-nav">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <form action="#" autocomplete="off">
+                        <input type="text" name="search" id="search" placeholder="Search your queries here.." onclick="myfunc()" required />
+                    </form>
+                </div>
+                <div class="join-btn">
+                    <button>Join Us</button>
+                </div>
+            </div>
+            <!-- Navigation Panel Ends here -->
+
+            <!-- Main Section Starts here -->
+            <div class="header-content">
+                <div class="main-logo">
+                    <img src="images/logo.png" alt="ecell-bombay-logo">
+                </div>
+                <div class="motive">"The way we go ahead, the way we lead"</div>
+                <div class="join-us">
+                    <form action="#">
+                        <input type="email" name="user-email" id="email" placeholder = "Enter your email to join.." required />
+                        <button type="button">→</button>
+                    </form>
+                </div>
+                <div class="register">
+                    Get yourself registered with us <span><li><a href="#">Click Here</a></li></span>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="copyright">
+                    © Copyright 2021
+                </div>
+                <div class="social-media-icons">
+                    <li><a href="https://www.facebook.com/profile.php?id=100072747483834"><img src="../icons/facebook.png" alt="Facebook-Icon"  id="facebook"></a></li>
+                    <li><a href="https://instagram.com/ecell_srmist?utm_medium=copy_link"><img src="../icons/instagram.png" alt="Instagram-Icon"></a></li>
+                    <li><a href="#"><img src="../icons/twitter.png" alt="Twitter-Icon"></a></li>
+                </div>
+                <div class="copyright">
+                    All Rights reserved to E-Cell SRMIST
+                </div>
+            </div>
+            <!-- Main Section Ends here -->
+        </section>
+        <!-- Header Container Ends here -->
+    </header>
+    <!-- Header Section Ends Here -->
 </body>
+<script>
+    let search = document.getElementById('search');
+    function myfunc(){
+        search.style.backgroundColor = "#333";
+        search.style.transition = "all .2s ease-in-out";
+    }
+</script>
 </html>
