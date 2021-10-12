@@ -1,0 +1,212 @@
+@font-face {
+  font-family: ecellsrmist-sml;
+  src: url("../fonts/neus-hass-light.ttf");
+}
+@font-face {
+  font-family: ecellsrmist-mdm;
+  src: url("../fonts/neus-hass-medium.ttf");
+}
+@font-face {
+  font-family: ecellsrmist-bld;
+  src: url("../fonts/neus-hass-bold.ttf");
+}
+* {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: ecellsrmist-sml;
+}
+header {
+  width: 100%;
+  height: 100%;
+  background: url("https://github.com/Pranav9931/ecellsrmist/raw/main/Images/light-bulbs-5488573.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header .header-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.navigation-panel {
+  display: flex;
+  width: 93%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  /* background: orangered; */
+  align-items: center;
+  height: 7em;
+}
+.logo img {
+  width: 7em;
+}
+.nav-items {
+  flex: 0.7;
+  /* background: red; */
+  text-align: left;
+}
+.header-container ul {
+  /* background: red; */
+  font-family: ecellsrmist-mdm;
+}
+.navigation-panel .nav-items li {
+  display: inline-block;
+  color: #fff;
+}
+.navigation-panel .nav-items li a {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 2.5em;
+  font-size: 1.2em;
+  opacity: 0.4;
+}
+.navigation-panel .nav-items li a:hover {
+  opacity: 1;
+  color: #f3721f;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+#home-nav {
+  opacity: 0.8;
+  margin-left: 0em;
+}
+#home-nav:hover {
+  opacity: 1;
+}
+.search-bar {
+  width: 15em;
+}
+.search-bar input {
+  width: 100%;
+  height: 2.5em;
+  border-radius: 5em;
+  border: 0.1em solid #fff;
+  background: transparent;
+  padding: 0 1.5em;
+  outline: none;
+  color: #fff;
+}
+
+.join-btn button {
+  height: 2em;
+  padding: 0 2em;
+  background: #f3721f;
+  border: none;
+  border-radius: 5em;
+  font-family: ecellsrmist-bld;
+  color: #fff;
+  font-size: 1.2em;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+}
+.header-content .main-logo img {
+  width: 5em;
+  height: 11em;
+}
+.header-content .motive {
+  text-transform: uppercase;
+  color: #f3721f;
+  font-size: 1.6em;
+  font-family: ecellsrmist-mdm;
+  margin-top: 1.5em;
+}
+.header-content .join-us {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+.header-content .join-us input {
+  height: 3em;
+  width: 25em;
+  padding: 0 1em;
+  border-radius: 3em;
+  background: #333;
+  color: white;
+  border: none;
+  outline: none;
+}
+.header-content button {
+  height: 2em;
+  width: 2em;
+  font-size: 1.3em;
+  background: #f58c18;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  margin-left: 0.5em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.header-content button:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.header-content .register {
+  margin-top: 2em;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2em;
+  display: flex;
+}
+.register span {
+  margin-left: 1em;
+}
+.header-content .register span a {
+  font-family: ecellsrmist-mdm;
+  color: rgba(255, 255, 255, 0.6);
+}
+.register span a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.footer-section {
+  color: #fff;
+  display: flex;
+  width: 93%;
+  margin: 2em auto 0.2em auto;
+  /* transform: translateX(50%); */
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-section .copyright {
+  opacity: 0.6;
+}
+.social-media-icons {
+  display: flex;
+  width: 15em;
+  flex: 0.4;
+  /* background: red; */
+  justify-content: center;
+}
+.footer-section .social-media-icons li {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  background: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+}
+.footer-section .social-media-icons li:nth-child(1) {
+  margin-left: 35%;
+}
+.footer-section .social-media-icons li img {
+  width: 1.5em;
+  height: 1.5em;
+}
+#facebook {
+  width: 0.75em;
+}
