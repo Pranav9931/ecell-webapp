@@ -175,7 +175,7 @@ header .header-container {
   color: #fff;
   display: flex;
   width: 93%;
-  margin: 2em auto 0.2em auto;
+  margin: 4em auto 0.2em auto;
   /* transform: translateX(50%); */
   justify-content: space-between;
   align-items: center;
@@ -210,4 +210,57 @@ header .header-container {
 }
 #facebook {
   width: 0.75em;
+}
+
+@media screen and (max-width: 1200px) {
+  .search-bar {
+    width: 10em;
+  }
+  .navigation-panel .nav-items li a {
+    margin-left: 1em;
+  }
+  .navigation-panel .nav-items li {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .search-bar {
+    display: none;
+  }
+  .footer-section .social-media-icons li {
+    width: auto;
+    padding: 0 0.7em;
+  }
+}
+@media screen and (max-width: 765px) {
+  .navigation-panel .nav-items {
+    display: none;
+  }
+  html,
+  body {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-content .join-us input {
+    width: 17em;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .footer-section .social-media-icons {
+    margin: 01em 0;
+  }
+  .footer-section .social-media-icons li:nth-child(1) {
+    margin-left: 0;
+  }
+  .header-content .motive {
+    width: 80%;
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-height: 750px) {
+  .header-content {
+    margin-top: 5em;
+  }
 }
