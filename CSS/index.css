@@ -173,13 +173,11 @@ header .header-container {
 .footer-section {
   color: #fff;
   display: flex;
-  transform: translateX(50%);
-  margin-left: -42.5%;
+  width: 93%;
+  margin: 2em auto 0.2em auto;
+  /* transform: translateX(50%); */
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 .footer-section .copyright {
   opacity: 0.6;
